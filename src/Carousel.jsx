@@ -54,7 +54,7 @@ export const Carousel = () => {
             updateIndex(activeIndex - 1);
           }}
         >
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             <SlArrowLeftCircle />
           </span>{" "}
         </button>
@@ -86,7 +86,7 @@ export const Carousel = () => {
             updateIndex(activeIndex + 1);
           }}
         >
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             <IoArrowForwardCircleOutline />
           </span>
         </button>
